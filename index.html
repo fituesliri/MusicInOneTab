@@ -8,17 +8,36 @@
     rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css">
-    <title>Tap Music</title>
+     <script class="clock">
+            function startTime() {
+            
+              var today = new Date();
+              var h = today.getHours();
+              var m = today.getMinutes();
+              var s = today.getSeconds();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('txt').innerHTML =
+              h + ":" + m + ":" + s;
+              var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+              return i;
+            }
+            </script>
+         <title>Tap Music</title>
 </head>
 <body>
     <div class="app">
         <header>
-            <h1>Tap Music</h1>
+            <h1>Stack</h1>
             <p>Make music with just one tap!</p>
+            <p2>click the eggs</p2>
         </header>
-        <script>
-            <button onclick="location.reload();">Refresh Page</button>
-        </script>            
+        <body onload="startTime()">      
+        <div id="txt"></div>
+        </body>
         <div class="visual"></div>
         <div class="pads">
             <div class="pad1">

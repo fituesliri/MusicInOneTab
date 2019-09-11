@@ -22,6 +22,10 @@ header h1{
 header p {
     font-size: 20px;
 }
+header p2 {
+    font-size: 10px;
+    text-align: center;
+}
 
 .button{
     background-color: aquamarine;
@@ -69,34 +73,12 @@ header p {
 
 }
 
-.visual > div {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    bottom: 0%;
-    left: 20%;
-    bottom: 0%;
-    z-index: 1; 
-}
-
 @keyframes jump{
     0%{
         bottom: 0%;
         left: 0%;
     }
-    /* 10%{
-        bottom:10%;
-        left: 10%;
-    } */
-    /* 50%{
-        bottom: 40%;
-        left: 50%;
-    } */
-    /* 70%{
-        bottom: 30%;
-        left: 75%;
-    } */
+
     100%{
         bottom: 0%;
         left: 100%;
@@ -105,14 +87,23 @@ header p {
 
 .visual > div{
     width: 120px;
-    height: 80px;
-    position: relative;
+    height: 6vh;
+    position: sticky;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    /* position: absolute;
+}
+
+#txt {
+    width: 100px;
     height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    bottom: 0%; */
+
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 50px);
+
+    font-size: 17px;
+    text-align: center;
+
+    z-index: 2;
 }
