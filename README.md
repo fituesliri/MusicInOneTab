@@ -1,6 +1,8 @@
 # stackmusic
 Stack is a web application that visualizes music.
-Each egg icon has it's on sound track. On click the egg plays it's individual sound track and lets the user stack sounds both visually and physically.
+Each egg icon has it's on sound track. 
+![alt text]
+On click the egg plays it's individual sound track and lets the user stack sounds both visually and physically.
 Stack also offers a clock so the user can check time while indulging in the creative activiy.
 
 This was my first HTML + Javascript + CSS experience.
