@@ -23,3 +23,11 @@ Hope you enjoy this experience.
 
 This was my first HTML + Javascript + CSS experience.
 There are a lot of adjustments that can be made, but as a beginner to the languages I tried to keep it simple and within my understanding of the language and implementations.
+I used the tutorial for creating the music app
+->https://www.youtube.com/watch?v=2VJlzeEVL8A
+Sources of the music file can be found
+->https://github.com/DevEdwin/vanilla-js-beatmaker
+Try following this tutorial and make your own.
+
+## Utilization
+My code created are allowed to be implemented in a different ways.
