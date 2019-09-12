@@ -22,4 +22,4 @@ Hope you enjoy this experience.
 ## Overview
 
 This was my first HTML + Javascript + CSS experience.
-There are a lot of points to improve but as a beginner to the languages I tried to keep it simple and understandable.
+There are a lot of adjustments that can be made, but as a beginner to the languages I tried to keep it simple and within my understanding of the language and implementations.
