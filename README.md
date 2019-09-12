@@ -5,7 +5,7 @@
 Each egg icon has it's own sound track. 
 On click the egg plays it's individual sound track and lets the user stack sounds both visually and physically.
 
-![alt text](./screenshots/Stacking.png)
+![alt text](./screenshots/stack.png)
 
 A block is created by the user's activity. Each block matches the color of it's egg. 
 Stack also offers a clock so the user can check time while indulging in the creative activiy.
